@@ -2,8 +2,6 @@ import numpy as np
 from tqdm.auto import tqdm
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
-import os
-import datetime
 from time import time
 from scipy import optimize
 
