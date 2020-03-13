@@ -1,8 +1,7 @@
-torch==1.0.1.post2
+scipy
+numpy
+torch
 tqdm==4.28.1
 iisignature==0.23
-scipy==0.19.1
-numpy==1.13.3
 matplotlib==2.1.1
-roughpaths==0.1.0
 joblib==0.14.1

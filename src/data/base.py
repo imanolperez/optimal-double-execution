@@ -4,7 +4,6 @@ import iisignature
 from joblib import Parallel, delayed
 
 import utils
-from roughpaths import TensorAlgebra as ta
 
 
 class Price(object):
@@ -51,7 +50,6 @@ class Price(object):
                                    for path in tqdm(paths, desc="Computing signatures"))
 
         # Compute ES
-        #ES = ta.sig2tensor(np.mean(sigs, axis=0), 2, order)
         ES = np.mean(sigs, axis=0)
 
         if signals is None:
