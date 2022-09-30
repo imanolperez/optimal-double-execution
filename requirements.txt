@@ -4,4 +4,4 @@ torch
 tqdm==4.28.1
 iisignature==0.23
 matplotlib==2.1.1
-joblib==0.14.1
+joblib==1.2.0
