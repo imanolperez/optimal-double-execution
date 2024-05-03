@@ -1,7 +1,7 @@
 scipy
 numpy
 torch
-tqdm==4.28.1
+tqdm==4.66.3
 iisignature==0.23
 matplotlib==2.1.1
 joblib==0.14.1
